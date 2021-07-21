@@ -1,3 +1,12 @@
+/**
+ * A binary tree is a data structure meant to contain a tree-like relationship between a value and one of two children
+ *
+ * {@link https://en.wikipedia.org/wiki/Binary_tree}
+ *
+ * The "_find" method is what's known as a "depth-first" search
+ *
+ * {@link https://en.wikipedia.org/wiki/Depth-first_search}
+ */
 // Copilot was given "class Node"
 class Node {
     constructor(data) {
@@ -146,5 +155,5 @@ bst.insert(4);
 bst.insert(6);
 bst.insert(8);
 bst.insert(2);
- 
+
 bst.print();

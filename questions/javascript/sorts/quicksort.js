@@ -1,3 +1,8 @@
+/**
+ * Quicksort is an in-place sorting algorithm.
+ *
+ * {@link https://en.wikipedia.org/wiki/Quicksort}
+ */
 // Copilot was given "function quickSort"
 function quickSort(arr, low, high) {
     if (low < high) {

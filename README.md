@@ -15,7 +15,7 @@ It's main intent is to demonstrate how [Github Copilot breaks bad interviews](ht
 In our testing, Copilot was easily able to solve the following problems using only the function name as reference:
 
 - [JavaScript](./questions/javascript)
-  - [x] [Binary search](./questions/javascript/binary-search.js)
+  - [x] [Binary search (Depth-first)](./questions/javascript/binary-depth-search.js)
   - [x] [Deep copy](./questions/javascript/deep-copy.js)
   - [x] [Factorial](./questions/javascript/factorial.js)
   - [x] [Fibonacci](./questions/javascript/fibonacci.js)

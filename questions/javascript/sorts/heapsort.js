@@ -1,3 +1,8 @@
+/**
+ * Heapsort is a comparison-based sorting algorithm.
+ *
+ * {@link https://en.wikipedia.org/wiki/Heapsort}
+ */
 // Copilot was given "function heap"
 function heapsort(a) {
   var len = a.length;
