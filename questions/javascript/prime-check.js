@@ -1,3 +1,11 @@
+/**
+ * A prime number is a number that cannot be cleanly divided with any
+ * number other than itself and 1.
+ *
+ * "isPrime" checks to see if an input number matches that requirement
+ *
+ * {@link https://en.wikipedia.org/wiki/Prime_number}
+ */
 // Copilot was given "function isPrime"
 function isPrime(n) {
     if (n < 2) return false;

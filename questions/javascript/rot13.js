@@ -1,3 +1,10 @@
+/**
+ * ROT13 is a simple cipher that changes each character in a string with the
+ * letter 13 places in front of it
+ *
+ * {@link https://en.wikipedia.org/wiki/ROT13}
+ */
+// Copilot was given "function rot13"
 function rot13(str) {
   var out = "";
   for (var i = 0; i < str.length; i++) {
@@ -13,4 +20,5 @@ function rot13(str) {
   return out;
 }
 
+// Copilot was given "rot13("
 rot13("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz");

@@ -1,5 +1,13 @@
-// Copilot was given:
-// function reverseLinkedList(
+/**
+ * A linked list is a data structure that contains a value and a
+ * reference to the next item in the chain. It's almost like an array or list, but
+ * implemented differently for different purposes.
+ *
+ * This function takes a linked list and reverses the order of it - similarly to how "array.reverse()" might work
+ *
+ * {@link https://en.wikipedia.org/wiki/Linked_list}
+ */
+// Copilot was given: "function reverseLinkedList("
 function reverseLinkedList(head) {
     var prev = null;
     var curr = head;
@@ -13,14 +21,14 @@ function reverseLinkedList(head) {
 }
 
 // Copilot was given: `const listItem1`
-// Manually added `next`
+// NOTE: Manually added `next`
 const listItem1 = {
     value: 1,
     next: null
 };
 
 // Copilot was given: `const listItem2`
-// `next` was changed from `null` to `listItem1`
+// NOTE: `next` was changed from `null` to `listItem1`
 const listItem2 = {
     value: 2,
     next: listItem1
